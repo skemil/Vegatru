@@ -245,6 +245,17 @@ img {
   margin-left: 0rem;
 }
 
+.margin-bottom.margin-small {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .margin-bottom.margin-xxlarge {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1923,8 +1934,7 @@ img {
 }
 
 .contact3-details_component {
-  display: -ms-grid;
-  display: grid;
+  display: block;
   justify-items: start;
   -webkit-box-align: start;
   -webkit-align-items: start;
@@ -1940,12 +1950,23 @@ img {
 }
 
 .contact3-details_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1993,6 +2014,8 @@ img {
 }
 
 .paragraph-2 {
+  margin-bottom: 0px;
+  padding-left: 10px;
   font-weight: 700;
 }
 
