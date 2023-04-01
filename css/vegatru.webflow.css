@@ -1557,7 +1557,8 @@ img {
 }
 
 .contact3-details_item.qdqsd {
-  padding-bottom: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .contact3-locations_map-wrapper {
@@ -3554,6 +3555,10 @@ img {
     padding-left: 0rem;
   }
 
+  .icon-1x1-medium {
+    display: block;
+  }
+
   .layout121_component {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -3574,6 +3579,11 @@ img {
 
   .blog16_image-wrapper {
     padding-top: 66%;
+  }
+
+  .padding-section-large-3 {
+    display: flex;
+    justify-content: center;
   }
 
   .contact3-locations_component {
@@ -3607,6 +3617,14 @@ img {
   .contact3-details_component {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .contact3-details_item {
+    flex-direction: column;
+  }
+
+  .contact3-details_item.qdqsd {
+    flex-direction: column;
   }
 
   .blog-post2_content-bottom {
